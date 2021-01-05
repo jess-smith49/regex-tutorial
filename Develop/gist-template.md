@@ -31,6 +31,7 @@ The HTML matching tag regex has two "*" and two "+" as well as one "?".
 
 
 ### OR Operator
+The HTML matching tag regex has one "|" and two "[]".
 
 
 ### Character Classes
