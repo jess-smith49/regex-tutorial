@@ -35,25 +35,28 @@ The HTML matching tag regex has one "|" and two "[]".
 
 
 ### Character Classes
-
+The HTML matching regex expression has one character class. It is the "/s" and this is where the regex will match a whitespace character. In this case it would most likely be a break for the closing tag.
 
 ### Flags
 
 ### Grouping and Capturing
+The HTML matching tag has 4 grouping and capturing within the expression, this involves nesting as well. 
 
 
 ### Bracket Expressions
-
+The HTML regex expression has a couple bracket expressions. The first bracket matches a string that has a character from a-z. The second bracket has a negation with in the expression
 
 ### Greedy and Lazy Match
+The HTML regex expression 
 
 ### Boundaries
 
 ### Back-references
-
+The HTMl regex expression includes one back reference in the middle of the code. It is denoted as "/1". This back reference is here to match the same group of texted that was denoted in the first capturing group. This would be the way the regex matches its tags - for example <div> and </div> or <article> and </article>.
 
 
 ### Look-ahead and Look-behind
+This regex does not contain look-ahead or look-behind.
 
 ## Author
 
